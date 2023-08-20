@@ -1,0 +1,286 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>遊戲畫面-上肢</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+
+
+    <script>
+      function redirectToPage1() {
+        window.location.href = "http://127.0.0.1:8000/首頁";
+      }
+    </script>
+
+    <script>
+      function redirectToPage2() {
+        window.location.href = "http://127.0.0.1:8000/遊戲選擇畫面";
+      }
+    </script>
+
+    <script>
+      function redirectToPage3() {
+        window.location.href = "http://127.0.0.1:8000/簽到";
+      }
+    </script>
+
+    <script>
+      function redirectToPage4() {
+        window.location.href = "http://127.0.0.1:8000/商店";
+      }
+    </script>
+
+    <script>
+      function redirectToPage5() {
+        window.location.href = "http://127.0.0.1:8000/衣櫥";
+      }
+    </script>
+
+    <script>
+      function redirectToPage6() {
+        window.location.href = "http://127.0.0.1:8000/紀錄";
+      }
+    </script>
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <div>
+      <link href="{% static 'css/遊戲畫面-上肢.css' %}" rel="stylesheet" />
+
+      <div class="page5-container">
+        <div class="page5-frame">
+          <img
+            src="{% static 'public/playground_assets/rectangle257837-hpq8-200h.png' %}"
+            alt="Rectangle257837"
+            class="page5-rectangle25"
+          />
+          <span class="page5-text"><span>示範</span></span>
+          <span class="page5-text02"><span>手肘後舉</span></span>
+          <img
+            src="{% static 'public/playground_assets/rectangle267837-gdap-300h.png' %}"
+            alt="Rectangle267837"
+            class="page5-rectangle26"
+          />
+
+          <img
+            src="{% static 'public/playground_assets/rectangle287838-i5u7-1000w.png' %}"
+            alt="Rectangle287838"
+            class="page5-rectangle28"
+          />
+          <span class="page5-text04"><span>動作正確率</span></span>
+          <span class="page5-text06"><span>69%</span></span>
+          <img
+            src="{% static 'public/playground_assets/user7838-4g2bj-200h.png' %}"
+            alt="User7838"
+            class="page5-user"
+          />
+          <img
+            src="{% static 'public/playground_assets/search7838-j0qw-200h.png' %}"
+            alt="Search7838"
+            class="page5-search"
+          />
+          <img
+            src="{% static 'public/playground_assets/calendar7838-dgx.svg' %}"
+            alt="Calendar7838"
+            class="page5-calendar"
+          />
+          <img
+            src="{% static 'public/playground_assets/image47838-d7k.svg' %}"
+            alt="image47838"
+            class="page5-image4"
+          />
+          <span class="page5-text08"><span>03/28</span></span>
+          <span class="page5-text10"><span>999</span></span>
+          <img
+            src="{% static 'public/playground_assets/rectangle317839-jkla-200h.png' %}"
+            alt="Rectangle317839"
+            class="page5-rectangle31"
+          />
+          <div class="page5-component">
+            <div class="page5-group9">
+              <img
+                onclick="redirectToPage1()"
+                src="{% static 'public/playground_assets/image6i783-ybmd-200h.png' %}"
+                alt="image6I783"
+                class="page5-image6"
+              />
+              <span class="page5-text12"><span>首頁</span></span>
+            </div>
+          </div>
+          <div class="page5-component1">
+            <div class="page5-group10">
+              <img
+                onclick="redirectToPage2()"
+                src="{% static 'public/playground_assets/image6i783-ranb-200h.png' %}"
+                alt="image6I783"
+                class="page5-image61"
+              />
+              <span class="page5-text14"><span>遊戲</span></span>
+            </div>
+          </div>
+          <div class="page5-component2">
+            <div class="page5-group91">
+              <img
+                onclick="redirectToPage3()"
+                src="{% static 'public/playground_assets/image6i783-0ockg-200h.png' %}"
+                alt="image6I783"
+                class="page5-image62"
+              />
+              <span class="page5-text16"><span>簽到</span></span>
+            </div>
+          </div>
+          <div class="page5-component3">
+            <div class="page5-group92">
+              <img
+                onclick="redirectToPage4()"
+                src="{% static 'public/playground_assets/image6i784-8l4-200h.png' %}"
+                alt="image6I784"
+                class="page5-image63"
+              />
+              <span class="page5-text18"><span>商店</span></span>
+            </div>
+          </div>
+          <div class="page5-component4">
+            <div class="page5-group93">
+              <img
+                onclick="redirectToPage5()"
+                src="{% static 'public/playground_assets/image6i784-gpco-200h.png' %}"
+                alt="image6I784"
+                class="page5-image64"
+              />
+              <span class="page5-text20"><span>衣櫥</span></span>
+            </div>
+          </div>
+          <div class="page5-component5">
+            <div class="page5-group94">
+              <img
+                onclick="redirectToPage6()"
+                src="{% static 'public/playground_assets/image6i784-evke-200h.png' %}"
+                alt="image6I784"
+                class="page5-image65"
+              />
+              <span class="page5-text22"><span>紀錄</span></span>
+            </div>
+          </div>
+          <span class="page5-text24">目標次數：15</span>
+          <span class="page5-text25">完成次數：3</span>
+          <img
+            src="{% static 'public/playground_assets/giftbox11415-ie3p-200h.png' %}"
+            alt="giftbox11415"
+            class="page5-giftbox1"
+          />
+        </div>
+      </div>
+    </div>
+    <img id="image" src="" alt="Image" />
+    <script src="{% static 'arm01.js' %}"></script>
+  </body>
+</html>
