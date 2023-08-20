@@ -62,8 +62,9 @@ def signup(request):
         print(form)
         if form.is_valid():
             form.save()
+            print(form)
             return redirect('/signin')
-
+            
     context = {
         'form': form
     }
