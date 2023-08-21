@@ -11,7 +11,7 @@ class UserInfoForm(forms.ModelForm):
         widgets = {
             'username': forms.TextInput(attrs={'class': 'form-control'}),
             'email': forms.EmailInput(attrs={'class': 'form-control'}),
-            'password': forms.TextInput(attrs={'class': 'form-control'})
+            'password': forms.PasswordInput(attrs={'id': 'id_password'})
         }
 
         labels = {
