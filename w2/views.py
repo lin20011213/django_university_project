@@ -59,10 +59,11 @@ def signup(request):
 
     if request.method == "POST":
         form = UserInfoForm(request.POST)
-        print(form)
         if form.is_valid():
-            form.save()
-            print(form)
+            user = form.save(commit=False)
+            user.set_password(form.cleaned_data['password'])
+            user.save()
+            print(form.cleaned_data['password'])
             return redirect('/signin')
             
     context = {
